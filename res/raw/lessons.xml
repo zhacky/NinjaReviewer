@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <lesson>
+      <id>1</id>
+      <code>1</code>
+      <group>0</group>
+      <child>0</child>
+      <title>Exam Guide</title>
+      <details></details>
+  </lesson>
+  <lesson>
+      <id></id>
+      <code></code>
+      <group></group>
+      <child></child>
+      <title></title>
+      <details></details>
+  </lesson>
+</items>
+<!-- 
+	 categoryA = "Exam_specific" 	>>>> 0
+	 categoryB = "English"			>>>> 1
+	 categoryC = "Math"				>>>> 2
+	 categoryD = "General"			>>>> 3
+_____________________________________
+
+	 Achild1 = "Exam Guide"			>>>> 0,0
+	 Achild2 = "R.A. 6713"			>>>> 0,1
+	 Achild3 = "Others"				>>>> 0,2
+_____________________________________
+
+	 Bchild1 = "Grammar"			>>>> 1,0
+	 Bchild2 = "Reading Comprehension">> 1,1
+	 Bchild3 = "Vocabulary"			>>>> 1,2
+	 Bchild4 = "Idioms"				>>>> 1,3
+_____________________________________
+
+	 Cchild1 = "Arithmetic"			>>>> 2,0
+	 Cchild2 = "Word problems"		>>>> 2,1
+	 Cchild3 = "Logical Reasoning"	>>>> 2,2
+_____________________________________
+
+	 Dchild1 = "Current Events"		>>>> 3,0
+	 Dchild2 = "Filipino"			>>>> 3,1
+	 Dchild3 = "Personality Test"	>>>> 3,2
+	-->

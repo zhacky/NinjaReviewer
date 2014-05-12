@@ -43,7 +43,7 @@ public class MenuActivity extends Activity {
 		btnScore = (Button) findViewById(R.id.btn_score);
 		btnStudy.setOnClickListener(l);
 		btnQuiz.setOnClickListener(l);
-		btnStudy.setOnClickListener(l);
+		btnScore.setOnClickListener(l);
 		// --> adView
 		adView = (AdView) findViewById(R.id.adView);
 		AdRequest.Builder builder = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).addTestDevice("B3EEABB8EE11C2BE770B684D95219ECB");
@@ -69,21 +69,26 @@ public class MenuActivity extends Activity {
 /**      Listener Details      **/
 
 	private void setUpListener() {
+		
 		l = new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
+				Intent intent;
+				v.playSoundEffect(android.view.SoundEffectConstants.CLICK);
 				switch (v.getId()) {
 				case R.id.btn_study:
-					Intent intent = new Intent(MenuActivity.this,ContentsActivity.class);
+					intent = new Intent(MenuActivity.this,ContentsActivity.class);
 					startActivity(intent);
 					break;
 				case R.id.btn_quiz:
-					
+					intent = new Intent(MenuActivity.this,QuizActivity.class);
+					startActivity(intent);
 					break;
 
 				case R.id.btn_score:
-					
+					intent = new Intent(MenuActivity.this,ScoresActivity.class);
+					startActivity(intent);
 					break;
 				default:
 					break;

@@ -32,28 +32,22 @@
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/buttons_study"
-        android:background="@color/Green"
-        android:textColor="@color/White"
-         />
+        android:text="@string/buttons_study" />
 
     <Button
         android:id="@+id/btn_quiz"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/buttons_quiz"
-        android:background="@color/red"
-         />
+        android:text="@string/buttons_quiz" />
 
     <Button
         android:id="@+id/btn_score"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/buttons_score" 
-        android:background = "@color/yellow"
-        >
+        android:text="@string/buttons_score" >
+
     </Button>
 
     <com.google.android.gms.ads.AdView

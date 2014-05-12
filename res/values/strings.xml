@@ -12,6 +12,29 @@
     <string name="buttons_score">Score</string>
 	<integer name="google_play_services_version">4323030</integer>
 	<string name="civilservice_content">Civil Service Commission Logo</string>
-	<string name="loading">Loading ...</string>
+	<string name="loading">Loading &#8230;</string>
 	<string name="next">Next</string>
+	<string name="please_select_one">Please select one</string>
+	<string name="confirm">Confirm</string>
+    <string name="study">Study</string>
+    <string name="quiz">Quiz</string>
+    <string name="high_scores">Score</string>
+    <string name="question">Question</string>
+    <string name="no_of_correct">No. Of Correct Answers</string>
+    <string name="total_score">Total Score</string>
+    <string name="rank">Rank: </string>
+    <string name="enter_your_name">Enter Your Name:</string>
+    <string name="save">Save</string>
+    <string name="try_again">Try Again</string>
+    <string name="dedication">To: Warrior</string>
+    <string name="reset">Reset</string>
+    <string name="search_hint">Search topics</string>
+    <string name="general">General</string>
+    <string name="english">English</string>
+    <string name="math">Math</string>
+    <string name="all">All</string>
+    <string name="content_description_image">Study Image</string>
+    <string name="notice">This is only a test app.  Final app will be available soon. Please contribute by adding suggestions and comments.  Thank you for downloading.</string>
+    <string name="ninjatech">Ninja Tech 2014</string>
+	
 </resources>

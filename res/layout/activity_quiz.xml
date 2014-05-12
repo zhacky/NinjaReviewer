@@ -5,6 +5,13 @@
     android:orientation="vertical" >
 
     <TextView
+        android:id="@+id/questionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -17,13 +24,6 @@
         android:layout_marginLeft="15dp"
         android:layout_height="0dp"
         android:layout_weight="0.50" >
-
-        <RadioButton
-            android:id="@+id/radio0"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="@string/loading" />
 
         <RadioButton
             android:id="@+id/radio1"
@@ -46,6 +46,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/loading" />
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/loading" />
+
     </RadioGroup>
 
     <Button
